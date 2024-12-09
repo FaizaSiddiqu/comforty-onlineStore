@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Cart from './Components/Cart'
 import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'

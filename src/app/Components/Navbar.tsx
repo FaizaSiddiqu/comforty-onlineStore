@@ -55,11 +55,11 @@ export default function Navbar() {
 
           {/* Navigation Links */}
           <ul className={`flex-col lg:flex-row lg:flex space-x-8 text-gray-700 font-semibold absolute lg:static w-full lg:w-auto bg-white lg:bg-transparent p-6 lg:p-0 transition-all duration-300 ease-in-out ${isMenuOpen ? 'top-16 left-0' : 'top-[-300px]'}`}>
-            <li><a href="/" className="block py-2 lg:py-0 lg:inline-block bg-teal-600 text-white">Home</a></li>
-            <li><a href="/products" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">Shop</a></li>
-            <li><a href="/Allproducts" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">Product</a></li>
+            <li><a href="#" className="block py-2 lg:py-0 lg:inline-block bg-teal-600 text-white">Home</a></li>
+            <li><a href="#" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">Shop</a></li>
+            <li><a href="#" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">Product</a></li>
             <li><a href="#" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">Pages</a></li>
-            <li><a href="/about" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">About</a></li>
+            <li><a href="#" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">About</a></li>
           </ul>
 
           {/* Cart Button */}
