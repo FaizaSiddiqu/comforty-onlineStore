@@ -3,39 +3,12 @@ import Image from "next/image";
 import { FaRegHeart } from "react-icons/fa";
 import { AiOutlineDelete } from "react-icons/ai";
 
+
 export default function Cart() {
   return (
-    <div className="bg-gray-100 min-h-screen">
-      {/* Navbar */}
-      {/* <nav className="bg-white shadow-md py-4">
-        <div className="container mx-auto flex justify-between items-center px-6">
-          <div className="flex items-center space-x-3">
-            <Image src="/Logo.png" alt="Logo" width={30} height={30} />
-            <h1 className="text-xl font-bold">Comforty</h1>
-          </div>
-          <div className="flex items-center space-x-6">
-            <a href="#" className="text-gray-600 hover:text-gray-800">
-              Home
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-800">
-              Shop
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-800">
-              Product
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-800">
-              About
-            </a>
-            <a
-              href="tel:888-555-0199"
-              className="text-gray-600 hover:text-gray-800"
-            >
-              Contact: 888-555-0199
-            </a>
-          </div>
-        </div>
-      </nav> */}
-
+  
+    <div className="bg-gray-100 min-h-screen pt-12">
+     
       {/* Main Cart Section */}
       <div className="container mx-auto mt-10 px-6">
         <div className="flex flex-col lg:flex-row justify-between gap-6">

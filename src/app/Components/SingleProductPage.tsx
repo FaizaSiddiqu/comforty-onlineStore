@@ -85,7 +85,7 @@ const Product = () => {
             </div>
             <div className="text-center">
               <Image
-                src="/chair-5.png" 
+                src="/Products.png" 
                 alt="Library Chair"
                 width={150}
                 height={150}

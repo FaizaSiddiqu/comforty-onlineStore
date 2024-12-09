@@ -6,6 +6,9 @@ import Contactus from './Components/Contactus'
 import Hero from './Components/Hero'
 import SingleProductPage from './Components/SingleProductPage'
 import AllProducts from './Components/AllProducts'
+import Logos from './Components/Logos'
+import Catagory from './Components/Catagory'
+import NewProducts from './Components/NewProducts'
 
 
 
@@ -16,11 +19,16 @@ export default function Home() {
     <div>
       <Navbar />
      <Hero />
-     <AllProducts />
+     <Logos />
      <SingleProductPage />
-      <Cart />
-      <Contactus />
-      <Footer />
+     < Catagory />
+     <NewProducts />
+     <AllProducts />
+     <Cart />
+     <Contactus />
+     <Footer />
+      
+      
     </div>
   );
 }
