@@ -30,7 +30,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center space-x-3 ml-0">
             <Image src="/logo.png" alt="Comforty Logo" width={40} height={40} />
-            <h1 className="text-2xl font-bold text-gray-800">Comforty</h1>
+            <h1 className="text-2xl font-bold text-gray-800">FurnitureBazaar</h1>
           </div>
           {/* Contact Info */}
           <div className="text-gray-600">
@@ -73,7 +73,7 @@ export default function Navbar() {
               <Link href="/" className="block py-2 lg:py-0 lg:inline-block bg-teal-600 text-white">Home</Link>
             </li>
             <li>
-              <Link href="/shop" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">Shop</Link>
+              <Link href="/contactus" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">ContactUs</Link>
             </li>
             <li>
               <Link href="/product" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">Product</Link>

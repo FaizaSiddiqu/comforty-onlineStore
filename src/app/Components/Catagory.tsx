@@ -5,7 +5,7 @@ const categories = [
     id: 1,
     title: "Wing Chair",
     products: "3,584 Products",
-    image: "/Frame2.png", 
+    image: "/Frame2.png",
   },
   {
     id: 2,
@@ -32,8 +32,9 @@ const Category = () => {
               src={category.image}
               alt={category.title}
               width={300}
-              height={200}
+              height={300} // Ensure square aspect ratio
               className="category-image"
+              style={{ objectFit: "cover", borderRadius: "8px" }} // Maintain uniform style
             />
             <div className="category-info">
               <h3 className="category-name">{category.title}</h3>

@@ -79,8 +79,8 @@ export default function Footer() {
         <div className="mt-10 flex flex-col lg:flex-row justify-between items-center text-sm text-gray-600">
           <p>© 2021 – Blog – Designed & Developed by Faiza Siddiqui</p>
           <div className="flex space-x-4 mt-4 lg:mt-0">
-            <Image src="/paypal.png" alt="PayPal" width={40} height={24} />
-            <Image src="/visa.png" alt="Visa" width={40} height={24} />
+            <Image src="/paypal.png" alt="PayPal" width={40} height={24} style={{width: "auto", height:"auto"}} />
+            <Image src="/visa.png" alt="Visa" width={40} height={24} style={{width: "auto" , height: "auto"}}/>
           </div>
         </div>
       </div>

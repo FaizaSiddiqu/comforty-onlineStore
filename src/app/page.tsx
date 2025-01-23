@@ -1,35 +1,35 @@
-import React from 'react'
-import Cart from './Components/Cart'
-import Footer from './Components/Footer'
-import Navbar from './Components/Navbar'
-import Contactus from './Components/Contactus'
-import Hero from './Components/Hero'
-import SingleProductPage from './Components/SingleProductPage'
-import AllProducts from './Components/AllProducts'
-import Logos from './Components/Logos'
-import Catagory from './Components/Catagory'
-import NewProducts from './Components/NewProducts'
+
+"use client";
+import React from "react";
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
+// import Contactus from './Components/Contactus';
+import Hero from './Components/Hero';
+import PopularStyle from "./Components/popularStyle";
+import  TopProduct from "@/app/Components/TopProducts/page";
+import Logos from './Components/Logos';
+import Catagory from './Components/Catagory';
 
 
-
-
-
-export default function Home() {
+export function Home() {
   return (
     <div>
       <Navbar />
      <Hero />
      <Logos />
-     <SingleProductPage />
+     {/* <SingleProductPage /> */}
      < Catagory />
-     <NewProducts />
-     <AllProducts />
-     <Cart />
-     <Contactus />
+     {/* <NewProducts /> */}
+     <TopProduct />
+     <PopularStyle />
+     {/* <Cart /> */}
+     {/* <Contactus /> */}
      <Footer />
       
       
     </div>
   );
 }
+export default Home;
+
 
