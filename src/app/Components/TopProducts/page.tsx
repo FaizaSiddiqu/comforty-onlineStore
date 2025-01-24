@@ -87,7 +87,7 @@ const AllProducts = () => {
 
             {/* Add to Cart Button */}
             <button
-              className="mt-4 w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-800 transition"
+              className="mt-4 w-full bg-teal-600 text-white font-semibold py-2 rounded-md hover:bg-teal-900 transition"
               onClick={() => addToCart(product)}
             >
               Add to Cart

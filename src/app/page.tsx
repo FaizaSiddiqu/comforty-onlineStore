@@ -11,7 +11,7 @@ import Logos from './Components/Logos';
 import Catagory from './Components/Catagory';
 
 
-export function Home() {
+export default function Home() {
   return (
     <div>
       <Navbar />
@@ -29,7 +29,6 @@ export function Home() {
       
     </div>
   );
-}
-export default Home;
+};
 
 

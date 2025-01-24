@@ -8,40 +8,6 @@ import { urlFor } from "@/sanity/lib/image";
 import TopProduct from "@/app/Components/TopProducts/page"
 
 
-// interface OurProductPageProp {
-//   params: Promise<{ slug: string }>;
-// }
-// async function getProduct(slug: string): Promise<Product | null> {
-//   const product = await client.fetch(
-//     groq`*[_type == "Products" && slug.current == $slug][0]{
-//       _id,
-//       title,
-//       type,
-//       image,
-//       price,
-//     }`,
-//     { slug }
-//   );
-//   console.log("Fetched product:", product); // Debugging
-//   return product || null; // Return null if no product is found
-// }
-
-// export default async function productPage({ params }: OurProductPageProp) {
-//   const { slug } = await params;
-//   console.log("Slug received:", slug); // Debugging
-
-//   const product = await getProduct(slug);
-
-//   if (!product) {
-//     console.log("Product not found for slug:", slug); // Debugging
-//     return (
-//       <div className="max-w-7xl mx-auto px-4 text-center">
-//         <h1 className="text-4xl font-bold">Product not found</h1>
-//         <p className="text-lg mt-4">The product you're looking for doesn't exist.</p>
-//       </div>
-//     );
-//   }
-// }
 
 interface OurProductPageProp {
   params: Promise<{ slug: string }>;

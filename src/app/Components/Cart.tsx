@@ -78,60 +78,7 @@ export default function Cart() {
           </div>
         </div>
       </div>
-
-      {/* Footer */}
-      {/* <footer className="bg-white mt-10 py-8">
-        <div className="container mx-auto px-6">
-          <div className="flex flex-col lg:flex-row justify-between gap-6"> */}
-            {/* { Footer Left} */}
-            {/* <div>
-              <h2 className="text-xl font-bold">Comforty</h2>
-              <p className="text-gray-600 mt-2">
-                Mauris tristique tortor in arcu volutpat, et feugiat sapien
-                placerat.
-              </p>
-              <div className="flex mt-4 space-x-3">
-                <a href="#" className="text-gray-600">
-                  <Image src="/icon-facebook.png" alt="Facebook" width={24} height={24} />
-                </a>
-                <a href="#" className="text-gray-600">
-                  <Image src="/icon-twitter.png" alt="Twitter" width={24} height={24} />
-                </a>
-                <a href="#" className="text-gray-600">
-                  <Image src="/icon-instagram.png" alt="Instagram" width={24} height={24} />
-                </a>
-              </div>
-            </div> */}
-
-            {/* Footer Middle */}
-            {/* <div className="space-y-2">
-              <h3 className="text-lg font-bold">Products</h3>
-              <ul className="text-gray-600">
-                <li>Library Chair</li>
-                <li>Wing Chair</li>
-                <li>Lounge Chair</li>
-                <li>Rocking Chair</li>
-              </ul>
-            </div>
-
-            {/* Footer Right */}
-            {/* <div>
-              <h3 className="text-lg font-bold">Newsletter</h3>
-              <p className="text-gray-600">Get the latest news and updates:</p>
-              <form className="flex mt-4">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="w-full px-3 py-2 border rounded-l-md focus:outline-none"
-                />
-                <button className="px-4 bg-indigo-500 text-white rounded-r-md hover:bg-indigo-600">
-                  Subscribe
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </footer>  */} 
-    </div>
-  );
+</div>
+  )
 }
+      
