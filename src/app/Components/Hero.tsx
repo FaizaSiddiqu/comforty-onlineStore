@@ -30,6 +30,8 @@ Shop Now
     alt="chair" 
     width={434} 
     height={584} 
+    style={{width: "auto", height: "auto"}}
+    priority={true}
     className="max-w-full h-auto" 
   />
 </div>

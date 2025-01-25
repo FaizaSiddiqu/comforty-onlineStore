@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand Section */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <Image src="/logo.png" alt="Comforty Logo" width={30} height={30} />
+              <Image src="/logo.png" alt="Comforty Logo" width={30} height={30} style={{width:"auto", height: "auto"}} />
               <h2 className="text-xl font-bold">FurnitureBazaar</h2>
             </div>
             <p className="text-gray-600 mb-4">
