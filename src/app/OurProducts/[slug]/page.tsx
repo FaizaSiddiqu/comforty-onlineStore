@@ -5,7 +5,7 @@ import { Product } from "../../../../types/products";
 import Image from "next/image";
 import { groq } from "next-sanity";
 import { urlFor } from "@/sanity/lib/image";
-import TopProduct from "@/app/Components/TopProducts/page"
+import TopProduct from "../../../Components/TopProducts/page";
 
 
 

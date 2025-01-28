@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <Image src="/logo.png" alt="Comforty Logo" width={30} height={30} style={{width:"auto", height: "auto"}} />
-              <h2 className="text-xl font-bold">FurnitureBazaar</h2>
+              <h2 className="text-xl font-bold">Comforty</h2>
             </div>
             <p className="text-gray-600 mb-4">
               Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum.
