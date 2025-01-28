@@ -38,7 +38,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center space-x-3 ml-0">
             <Image src="/logo.png" alt="Comforty-Logo" width={40} height={40} />
-            <h1 className="text-2xl font-bold text-gray-800">Comforty</h1>
+            <h1 className="text-2xl font-bold text-gray-800">FurnitureBazaar</h1>
           </div>
           {/* Contact Info */}
           <div className="text-gray-600">
