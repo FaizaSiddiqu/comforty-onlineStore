@@ -28,5 +28,23 @@
 
 import { groq } from "next-sanity";
 
-export const allProducts = groq`*[_type == "products"]`
-export const four = groq`*[_type == "products"][0..3]`
+// Existing product queries
+export const allProducts = groq`*[_type == "products"]`;
+export const four = groq`*[_type == "products"][0..3]`;
+
+
+
+// Shop products query (Add this new query)
+export const shopProducts = groq`
+  *[_type == "products" && shop == true] {
+    _id,
+    title,
+    description,
+    price,
+    image {
+      asset -> {
+        url
+      }
+    }
+  }
+`;

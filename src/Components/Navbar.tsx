@@ -84,7 +84,7 @@ export default function Navbar() {
               <Link href="/contactus" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">ContactUs</Link>
             </li>
             <li>
-              <Link href="/product" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">Product</Link>
+              <Link href="/shop" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">Shop</Link>
             </li>
             <li>
               <Link href="/pages" className="block py-2 lg:py-0 lg:inline-block hover:text-teal-600">Pages</Link>
