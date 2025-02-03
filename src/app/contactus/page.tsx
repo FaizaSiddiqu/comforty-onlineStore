@@ -1,11 +1,18 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import Footer from "@/Components/Footer";
+import Navbar from "@/Components/Navbar";
+
 
 
 const ContactUs = () => {
   return (
-    <div className="bg-white py-12">
-      <div className="container mx-auto px-4">
+    <div>
+<Navbar />
+   
+    <div className="bg-white py-12 ">
+      <div className="container mx-auto px-4 ">
         <h2 className="text-center text-2xl font-bold mb-4">Get In Touch With Us</h2>
         <p className="text-center text-gray-600 mb-8">
           For more information about our products & services, please feel free to drop us an email. Our staff is always here to help you out.
@@ -111,6 +118,8 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 };

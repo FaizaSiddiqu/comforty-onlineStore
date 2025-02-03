@@ -12,6 +12,8 @@ export interface Product {
       current : string;
     };
 
+  
+
     imageUrl: string;
     category: {
       title: string;

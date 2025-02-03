@@ -9,8 +9,8 @@ export default function Footer() {
           {/* Brand Section */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <Image src="/logo.png" alt="Comforty Logo" width={30} height={30} style={{width:"auto", height: "auto"}} />
-              <h2 className="text-xl font-bold">FurnitureBazaar</h2>
+              <Image src="/Logo.png" alt="Comforty Logo" width={30} height={30} style={{width:"auto", height: "auto"}} />
+              <h2 className="text-xl font-bold">Comforty</h2>
             </div>
             <p className="text-gray-600 mb-4">
               Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum.
@@ -21,13 +21,13 @@ export default function Footer() {
                 <Image src="/facebook.png" alt="Facebook" width={24} height={24} />
               </a>
               <a href="#" className="text-gray-600 hover:text-gray-800">
-                <Image src="/twitter.webp" alt="Twitter" width={24} height={24} />
+                <Image src="/Twitter.webp" alt="Twitter" width={24} height={24} />
               </a>
               <a href="#" className="text-gray-600 hover:text-gray-800">
-                <Image src="/insta.png" alt="Instagram" width={24} height={24} />
+                <Image src="/Insta.png" alt="Instagram" width={24} height={24} />
               </a>
               <a href="#" className="text-gray-600 hover:text-gray-800">
-                <Image src="/youtube.png" alt="YouTube" width={24} height={24} />
+                <Image src="/Youtube.png" alt="YouTube" width={24} height={24} />
               </a>
             </div>
           </div>

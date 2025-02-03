@@ -1,3 +1,4 @@
+
 "use client";
 
 import { client } from "@/sanity/lib/client";
@@ -7,6 +8,7 @@ import { Product } from "../../../types/products";
 import { allProducts } from "@/sanity/lib/queries";
 import { urlFor } from "@/sanity/lib/image";
 import Link from "next/link";
+import Swal from "sweetalert2";
 
 const AllProducts = () => {
   const [products, setProducts] = useState<Product[]>([]);
@@ -15,13 +17,26 @@ const AllProducts = () => {
   // Add to Cart functionality
   const addToCart = (product: Product) => {
     setCart((prevCart) => [...prevCart, product]);
-    alert(`${product.title} has been added to your cart!`);
+    Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: `${product.title} has been addedd to your cart!`,
+            showConfirmButton: false,
+            timer: 1500
+          })
   };
 
   // Remove from Cart functionality
   const removeFromCart = (productId: string) => {
     setCart((prevCart) => prevCart.filter((item) => item._id !== productId));
-    alert("Item has been removed from your cart!");
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: `Item has been removed from your cart!`,
+      showConfirmButton: false,
+      timer: 1500
+    })
+    // alert("Item has been removed from your cart!");
   };
 
   // Fetch products from Sanity

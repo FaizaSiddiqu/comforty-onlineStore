@@ -1,7 +1,8 @@
+"use client";
 import { useEffect, useState } from "react";
-import { sanityFetch } from "../sanity/lib/fetch"; 
-import {allProducts}  from "../sanity/lib/queries";
-import { Product } from "../../types/products";
+import { sanityFetch } from "../../sanity/lib/fetch"; 
+import {allProducts}  from "../../sanity/lib/queries";
+import { Product } from "../../../types/products";
 
 
 const Shop = () => {
@@ -12,6 +13,7 @@ const Shop = () => {
     const fetchProducts = async () => {
       try {
         const data = await sanityFetch<Product[]>({ query: allProducts });
+        // console.log("fetched products", data)
         setProducts(data);
       } catch (error) {
         console.error("Error fetching products:", error);
