@@ -1,9 +1,9 @@
-// // src/app/wishlist/page.tsx
 // "use client";
 
-// import { Key, ReactElement, JSXElementConstructor, ReactNode, ReactPortal, AwaitedReactNode } from "react";
 // import { useWishlist } from "../context/wishlistContext";
 // import Link from "next/link";
+
+// import { Product } from "../context/wishlistContext";
 
 // const WishlistPage = () => {
 //   const { wishlist } = useWishlist();
@@ -15,7 +15,7 @@
 //         <p>Your wishlist is empty.</p>
 //       ) : (
 //         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-//           {wishlist.map((product: { _id: Key | null | undefined; title: string | number | bigint | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | Iterable<ReactNode> | null | undefined; description: string | number | bigint | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | Iterable<ReactNode> | null | undefined; price: string | number | bigint | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | Iterable<ReactNode> | null | undefined; }) => (
+//           {wishlist.map((product: Product, _index, _array) => (
 //             <div
 //               key={product._id}
 //               className="border rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300"
@@ -47,12 +47,7 @@
 import { useWishlist } from "../context/wishlistContext";
 import Link from "next/link";
 
-interface Product {
-  _id: string;
-  title: string;
-  description: string;
-  price: number;
-}
+import { Product } from "../context/wishlistContext";
 
 const WishlistPage = () => {
   const { wishlist } = useWishlist();

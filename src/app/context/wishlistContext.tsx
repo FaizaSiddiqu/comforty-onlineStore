@@ -3,7 +3,13 @@
 import { createContext, useContext, useState } from "react";
 
 // 🔹 Product Type Define
-type Product = {
+export type Product = {
+  tags: any;
+  slug: any;
+  badge: any;
+  priceWithoutDiscount: ReactI18NextChildren | Iterable<ReactI18NextChildren>;
+  title: React.ReactNode | Iterable<React.ReactNode>;
+  description: React.ReactNode | Iterable<React.ReactNode>;
   _id: string;
   name: string;
   price: number;

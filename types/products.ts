@@ -3,6 +3,7 @@ export interface Product {
     _id: string;
     title: string;
     price: number;
+    name: string,
     priceWithoutDiscount?: number;
     badge?: string;
     description: string;
