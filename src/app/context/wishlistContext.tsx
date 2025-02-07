@@ -7,7 +7,7 @@ export type Product = {
   tags: any;
   slug: any;
   badge: any;
-  priceWithoutDiscount: ReactI18NextChildren | Iterable<ReactI18NextChildren>;
+  priceWithoutDiscount: React.ReactNode | Iterable<React.ReactNode>;
   title: React.ReactNode | Iterable<React.ReactNode>;
   description: React.ReactNode | Iterable<React.ReactNode>;
   _id: string;
