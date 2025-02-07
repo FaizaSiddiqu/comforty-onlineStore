@@ -1,19 +1,19 @@
 "use client";
 
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, ReactNode } from "react";
 
 // 🔹 Product Type Define
 export type Product = {
-  tags: any;
-  slug: any;
-  badge: any;
-  priceWithoutDiscount: React.ReactNode | Iterable<React.ReactNode>;
-  title: React.ReactNode | Iterable<React.ReactNode>;
-  description: React.ReactNode | Iterable<React.ReactNode>;
   _id: string;
   name: string;
   price: number;
   image: string;
+  title: string; // Updated to string
+  description: string; // Updated to string
+  priceWithoutDiscount?: number; // Updated to number (optional)
+  badge?: string; // Updated to string (optional)
+  slug: { current: string }; // Updated to object with `current` property
+  tags: string[]; // Updated to array of strings
 };
 
 // 🔹 Wishlist Context Type Define
@@ -26,7 +26,7 @@ type WishlistContextType = {
 // 🔹 Context Create (NULL initially)
 const WishlistContext = createContext<WishlistContextType | null>(null);
 
-export const WishlistProvider = ({ children }: { children: React.ReactNode }) => {
+export const WishlistProvider = ({ children }: { children: ReactNode }) => {
   const [wishlist, setWishlist] = useState<Product[]>([]);
 
   // 🔹 Add to Wishlist
