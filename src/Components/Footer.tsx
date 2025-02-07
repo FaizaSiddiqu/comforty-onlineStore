@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand Section */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <Image src="/Logo.png" alt="Comforty Logo" width={30} height={30} style={{width:"auto", height: "auto"}} />
+              <Image src="/Images/Logo.png" alt="Comforty Logo" width={30} height={30} style={{width:"auto", height: "auto"}} />
               <h2 className="text-xl font-bold">Comforty</h2>
             </div>
             <p className="text-gray-600 mb-4">
@@ -18,16 +18,16 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-600 hover:text-gray-800">
-                <Image src="/facebook.png" alt="Facebook" width={24} height={24} />
+                <Image src="/Images/facebook.png" alt="Facebook" width={24} height={24} />
               </a>
               <a href="#" className="text-gray-600 hover:text-gray-800">
-                <Image src="/Twitter.webp" alt="Twitter" width={24} height={24} />
+                <Image src="/Images/Twitter.webp" alt="Twitter" width={24} height={24} />
               </a>
               <a href="#" className="text-gray-600 hover:text-gray-800">
-                <Image src="/Insta.png" alt="Instagram" width={24} height={24} />
+                <Image src="/Images/Insta.png" alt="Instagram" width={24} height={24} />
               </a>
               <a href="#" className="text-gray-600 hover:text-gray-800">
-                <Image src="/Youtube.png" alt="YouTube" width={24} height={24} />
+                <Image src="/Images/Youtube.png" alt="YouTube" width={24} height={24} />
               </a>
             </div>
           </div>
@@ -79,8 +79,8 @@ export default function Footer() {
         <div className="mt-10 flex flex-col lg:flex-row justify-between items-center text-sm text-gray-600">
           <p>© 2021 – Blog – Designed & Developed by Faiza Siddiqui</p>
           <div className="flex space-x-4 mt-4 lg:mt-0">
-            <Image src="/paypal.png" alt="PayPal" width={40} height={24} style={{width: "auto", height:"auto"}} />
-            <Image src="/visa.png" alt="Visa" width={40} height={24} style={{width: "auto" , height: "auto"}}/>
+            <Image src="/Images/paypal.png" alt="PayPal" width={40} height={24} style={{width: "auto", height:"auto"}} />
+            <Image src="/Images/visa.png" alt="Visa" width={40} height={24} style={{width: "auto" , height: "auto"}}/>
           </div>
         </div>
       </div>

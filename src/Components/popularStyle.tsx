@@ -25,21 +25,21 @@ const popularStyle = () => {
       {/* Right Section */}
       <div className="col-span-1 grid grid-cols-2 gap-4">
         <Image
-          src="/Image-8.png"
+          src="/Images/Image-8.png"
           alt="White Chair"
           width={200}
           height={200}
           className="rounded-md"
         />
         <Image
-          src="/Image-2.png"
+          src="/Images/black.png"
           alt="Simple Chair"
           width={200}
           height={200}
           className="rounded-md"
         />
         <Image
-          src="/Image-1.png"
+          src="/Images/Image-1.png"
           alt="Gray Chair"
           width={200}
           height={200}
@@ -47,7 +47,7 @@ const popularStyle = () => {
         />
         <div className="relative">
           <Image
-            src="/Image-4.png"
+            src="/Images/Image-4.png"
             alt="Wooden Chair"
             width={200}
             height={200}

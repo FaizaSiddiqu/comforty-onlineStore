@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const Logos = () => {
   const logos = [
-    { src: "/logo-1.png", alt: "Zapier-Logo" },
-    { src: "/logo-2.png", alt: "Pipedrive-Logo" },
-    { src: "/logo-3.png", alt: "CIB-Bank-Logo" },
-    { src: "/logo-4.png", alt: "Zendesk-Logo" },
-    { src: "/Logo-5.png", alt: "Burnt-Toast-Logo" },
-    { src: "/Logo-6.png", alt: "PandaDoc-Logo" },
+    { src: "/Images/logo-1.png", alt: "Zapier-Logo" },
+    { src: "/Images/logo-2.png", alt: "Pipedrive-Logo" },
+    { src: "/Images/logo-3.png", alt: "CIB-Bank-Logo" },
+    { src: "/Images/logo-4.png", alt: "Zendesk-Logo" },
+    { src: "/Images/Logo-5.png", alt: "Burnt-Toast-Logo" },
+    { src: "/Images/Logo-6.png", alt: "PandaDoc-Logo" },
   ];
 
   return (

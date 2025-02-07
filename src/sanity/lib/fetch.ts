@@ -2,7 +2,7 @@
 
 import { createClient } from '@sanity/client';
 
-const client = createClient({
+export const client = createClient({
   projectId: "tcwiltjd",
   dataset: "production",
   useCdn: true,

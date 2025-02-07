@@ -1,9 +1,10 @@
-const sanityClient = require('@sanity/client');
+
+import sanityClient from '@sanity/client';
 
 const client = sanityClient({
-  projectId: 'your-project-id', // Replace with your Sanity project ID
+  projectId: 'tcwiltjd', // Replace with your Sanity project ID
   dataset: 'production', // Replace with your dataset name
-  token: 'your-sanity-token', // Generate a token from Sanity Manage
+  token: 'skQE14ntN9DHVDTRDxbZImQA0b3JSqooGWxKzo94wPoWTKfZdQrNKJrIwcmEPv79ozIhov9jkAzfX22FFQfq2SbYuPf4iqcZIXFbWDWRdSXzWr52AUX2Uz5TQa3iEEsN0kt2gL0xmOgpX2IYtScUUUWVYsyg0X4N2ykT1MMh6UTIuJOtateO', // Generate a token from Sanity Manage
   useCdn: false,
 });
 

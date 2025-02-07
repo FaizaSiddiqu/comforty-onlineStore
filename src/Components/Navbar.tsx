@@ -13,12 +13,13 @@ import {
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const wishlist = []; // Define the wishlist variable
 
   return (
     <header>
       {/* Top Header */}
       <div className="bg-black text-white py-2 text-sm">
-        <div className="container mx-auto flex justify-between items-center px-6 lg:px-20">
+        <div className="container mx-auto flex justify-between items-center px-6 lg:px-10">
           <p>Free Shipping On Orders Over $50</p>
           <div className="space-x-4 flex items-center">
             <ClerkProvider>
@@ -43,7 +44,7 @@ export default function Navbar() {
 
       {/* Middle Header */}
       <div className="bg-gray-100 py-4">
-        <div className="container mx-auto flex justify-between items-center px-6 lg:px-20">
+        <div className="container mx-auto flex justify-between items-center px-6 lg:px-10">
           <div className="flex items-center space-x-3">
             <Image src="/Logo.png" alt="Comforty-Logo" width={40} height={40} />
             <h1 className="text-2xl font-bold text-gray-800">Comforty</h1>
@@ -64,7 +65,7 @@ export default function Navbar() {
 
       {/* Navbar */}
       <nav className="bg-white shadow-md">
-        <div className="container mx-auto flex justify-between items-center px-6 lg:px-20 py-4">
+        <div className="container mx-auto flex justify-between items-center px-6 lg:px-4 py-4">
           <button
             className="block lg:hidden focus:outline-none"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -86,7 +87,7 @@ export default function Navbar() {
           </button>
 
           <ul
-            className={`lg:flex lg:space-x-8 text-gray-700 font-semibold absolute lg:static w-full lg:w-auto bg-white lg:bg-transparent p-6 lg:p-0 transition-all duration-300 ease-in-out ${
+            className={`lg:flex lg:space-x-5 text-gray-700 font-semibold absolute lg:static w-full lg:w-auto bg-white lg:bg-transparent p-6 lg:p-0 transition-all duration-300 ease-in-out ${
               isMenuOpen ? "top-16 left-0" : "top-[-300px]"
             }`}
           >
@@ -122,6 +123,11 @@ export default function Navbar() {
                 About
               </Link>
             </li>
+            <li>
+            <Link href="/wishlist" className="text-gray-700 hover:text-teal-600">
+  Wishlist 
+</Link>
+</li>
             <li className="relative group">
               <span className="cursor-pointer flex items-center hover:text-teal-600">
                 Pages
@@ -275,7 +281,7 @@ export default function Navbar() {
             <Link href="/cart">
               <button className="flex items-center bg-indigo-500 text-white px-4 py-2 rounded-lg hover:bg-indigo-600">
                 <Image
-                  src="/group-1.png"
+                  src="/Images/group-1.png"
                   alt="Cart"
                   width={20}
                   height={20}
